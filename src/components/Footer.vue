@@ -1,13 +1,8 @@
-<template>
-  <b>Craig Store</b>
-  <el-input placeholder="Search"></el-input>
-</template>
-
+<template>footer</template>
 <script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "Header",
+  name: "Footer",
 });
 </script>
-
 <style lang="scss" scoped></style>
