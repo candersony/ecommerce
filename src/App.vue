@@ -23,8 +23,13 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+@import "./element-variables.scss";
+
 .root {
   min-height: 100vh;
+}
+.el-header {
+  background-color: $--color-primary-light-3;
 }
 .el-header,
 .el-footer {
