@@ -4,7 +4,7 @@
       <el-image :src="image" fit="scale-down"></el-image>
       <div>
         <h2>{{ title }}</h2>
-        <p>{{ description }}</p>
+        <p class="description">{{ description }}</p>
       </div>
     </div>
   </el-card>
@@ -26,9 +26,9 @@ export default defineComponent({
 .card {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   max-height: 250px;
   padding: 10px;
+  overflow: hidden;
 }
 .el-image {
   max-width: 20%;
