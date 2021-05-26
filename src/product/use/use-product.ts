@@ -1,5 +1,5 @@
 import { Ref, ref, watch } from "vue";
-import { Product } from "./model/product";
+import { Product } from "../model/product";
 
 export function useProduct(productId: string | number): {
   product: Ref<Product | undefined>;

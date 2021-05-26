@@ -18,8 +18,8 @@
 
 <script lang="ts">
 import ProductTile from "@/product/components/ProductTile.vue";
-import { useProducts } from "@/product/use-products";
-import { useFeaturedProducts } from "@/product/use-featured-products";
+import { useProducts } from "@/product/use/use-products";
+import { useFeaturedProducts } from "@/product/use/use-featured-products";
 import { Ref } from "@vue/reactivity";
 import { Product } from "@/product/model/product";
 

@@ -6,7 +6,7 @@
 import { defineComponent } from "vue";
 import ProductDetails from "../components/ProductDetails.vue";
 import { useRoute } from "vue-router";
-import { useProduct } from "../use-product";
+import { useProduct } from "../use/use-product";
 
 export default defineComponent({
   components: {

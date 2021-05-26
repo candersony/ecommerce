@@ -1,5 +1,5 @@
 import { ref, onMounted, Ref } from "vue";
-import { Product } from "./model/product";
+import { Product } from "../model/product";
 
 export function useProducts(): {
   products: Ref<Product[]>;
