@@ -1,5 +1,5 @@
 <template>
-  <b>Craig Store</b>
+  <router-link to="/"><b>Craig Store</b></router-link>
   <el-input placeholder="Search"></el-input>
 </template>
 
